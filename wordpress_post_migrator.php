@@ -78,7 +78,7 @@ if ($result->num_rows > 0) {
 
         $the_img_url_for_featured = $upload_dir['basedir']."/2015/04/";
         
-        $the_img_url = "http://localhost/yoursite/wp-content/uploads/2015/04/";//"http://tp-ren.local.com/wp-content/uploads/2015/04/";
+        $the_img_url = "http://localhost/yoursite/wp-content/uploads/2015/04/";
         
         $sql4img = "SELECT * FROM pics WHERE POSTID=$the_post_id";
         
